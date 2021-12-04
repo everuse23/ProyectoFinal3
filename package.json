@@ -1,0 +1,22 @@
+{
+  "name": "colmenaressbm_frias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/custom.scss css/custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everuse23/ColmenaresSBM_FRIAS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/everuse23/ColmenaresSBM_FRIAS/issues"
+  },
+  "homepage": "https://github.com/everuse23/ColmenaresSBM_FRIAS#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

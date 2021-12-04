@@ -1,0 +1,130 @@
+$primary: rgb(116, 29, 29);
+$danger: #f59211;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.cuadro {
+  height: 750px;
+  width: 650px;
+}
+
+.cuerpo {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url(https://e5m4m5y6.rocketcdn.me/blog/wp-content/uploads/2016/08/cropped-inspeccionando-colmenas.jpg);
+  height: 650px;
+}
+
+header {
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0.25rem 0.15rem rgb(124, 84, 10);
+  background-image: url(https://media.istockphoto.com/vectors/realistic-horizontal-banner-honeycomb-with-bees-vector-id1294048938?k=20&m=1294048938&s=170667a&w=0&h=Kyyl5gZvTroBgLqR8iY2hO_HRif4orzKAOTjo20WMOY=);
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+.button {
+  background-color: rgb(110, 72, 22);
+  border-radius: 20px;
+  border: none;
+}
+
+.cuerpo__2 {
+  padding-top: 10px;
+  background-image: url(https://honey.com/images/default/homepage-wooden-bg.jpg);
+}
+
+.carrusel {
+  padding: 4px 4px 4px 4px;
+}
+
+.cuerpo__3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 650px;
+}
+
+.imagenes {
+  height: 475px;
+  width: 570px;
+}
+body {
+  padding-top: 10px;
+  background-image: url(https://honey.com/images/default/homepage-wooden-bg.jpg);
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: 2px;
+  padding-bottom: 20px;
+
+  h4 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  &__hijo {
+    display: flex;
+    align-items: center;
+  }
+  .form-contact {
+    background-color: rgb(110, 72, 22);
+    box-shadow: 7px 13px 37px;
+    height: 550px;
+    width: 800px;
+    margin: 0px auto;
+    border-radius: 20px;
+
+    .contacto {
+      padding: 2.6rem;
+      overflow: hidden;
+      color: #f59211;
+    }
+  }
+}
+
+.contacto label,
+.contacto input,
+.contacto textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+label {
+  font-weight: 800;
+}
+
+.contacto input,
+.contacto textarea {
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 4px;
+  font-size: 20px;
+  outline: none;
+  color: #f59211;
+}
+
+input [type="submit"] {
+  padding: 10px;
+  border: none;
+  background-color: brown;
+}
